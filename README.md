@@ -7,8 +7,9 @@
 
 ## Example
 
-![image](https://gitlab.ttsing.com/ios/CDPickerOperation/blob/master/CDPickerOperation1.png)
-![image](https://gitlab.ttsing.com/ios/CDPickerOperation/blob/master/CDPickerOperation2.png)
+![image](https://gitlab.ttsing.com/ios/CDPickerOperation/blob/master/CDPickerOperation1.png)  
+  
+![image](https://gitlab.ttsing.com/ios/CDPickerOperation/blob/master/CDPickerOperation2.png)  
 ## Requirements
 
 ## Installation
