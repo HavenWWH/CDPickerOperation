@@ -1,0 +1,16 @@
+PODS:
+  - CDPickerOperation (0.1.0)
+
+DEPENDENCIES:
+  - CDPickerOperation (from `../`)
+
+EXTERNAL SOURCES:
+  CDPickerOperation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CDPickerOperation: 715f87c1e63158ed95e3e256bde95a9735d65229
+
+PODFILE CHECKSUM: d903451aceb5ae4a0a3e6db5eda5e54c12277675
+
+COCOAPODS: 1.7.0

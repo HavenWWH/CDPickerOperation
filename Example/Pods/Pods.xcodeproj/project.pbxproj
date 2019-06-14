@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0ADB67CC4F19DFA6760F0FA7D5E48A69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2134C27491650DF32CB5AE0511B4EF64 /* Pods-CDPickerOperation_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE34E9490C1495562933ACC091A985DB /* Pods-CDPickerOperation_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B0C5434AC8A928D5520D366825BA905 /* Pods-CDPickerOperation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D3482EE09F6377E6C04632321F7F33 /* Pods-CDPickerOperation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		618BD0A3402457D23E0EA8C7352492CC /* CDPickerOperation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59EEC5F684007FA1ED9573F6E203FE91 /* CDPickerOperation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		727112D0E924B757A640AB28B9226385 /* CDPickerOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 86D9C25DA518AB0F676F568628FE9514 /* CDPickerOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A33F44443F90F7663F34767269C18F6 /* Pods-CDPickerOperation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C62C80F6046FC57802BA283A390207 /* Pods-CDPickerOperation_Example-dummy.m */; };
+		AB7A0FB378686C0C198053C1C5FE3948 /* CDPickerOperation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD1069C657DD64418B3C9E7384F2FDA /* CDPickerOperation-dummy.m */; };
+		F4795E8E8EB065829B39FF18F20C6F61 /* CDPickerOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D42D28FBD13810604F150E38A81B5013 /* CDPickerOperation.m */; };
+		F4E61DA2E3782D99556EF95E1A8D3D84 /* Pods-CDPickerOperation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4698B1DAAFCBDA71CD8BEF2E4D3BF40A /* Pods-CDPickerOperation_Tests-dummy.m */; };
+		FB2E0ADF52793DAFC3483F87ACE53A06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FDC30B796FD371E2FD4D3E41DBC95276 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D016F839F240C3807981F602681F597D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C83DA14328D24B72DB458E8479FDFCB;
+			remoteInfo = "Pods-CDPickerOperation_Example";
+		};
+		E9BCC12F7BE48DF69B770200C844B9FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FD7E76DF268A861616E9C855AC02768;
+			remoteInfo = CDPickerOperation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00DC86B195FE25480083255F04490AEC /* Pods-CDPickerOperation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CDPickerOperation_Example.modulemap"; sourceTree = "<group>"; };
+		033A6C13D3638DB33D56AD5C64A467B8 /* Pods_CDPickerOperation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CDPickerOperation_Example.framework; path = "Pods-CDPickerOperation_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D4CECB306DC0688508D6E55352523ED /* CDPickerOperation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CDPickerOperation-Info.plist"; sourceTree = "<group>"; };
+		133FC5811DBAE3D5A7FBC2FA2D112791 /* Pods-CDPickerOperation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CDPickerOperation_Example.release.xcconfig"; sourceTree = "<group>"; };
+		204EEF32AF2559517093D55BACB8A43A /* Pods-CDPickerOperation_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CDPickerOperation_Tests-Info.plist"; sourceTree = "<group>"; };
+		29040A71CDC10DAAB875A8A05D3322B0 /* Pods-CDPickerOperation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CDPickerOperation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		298A9729990137A630335F2776A5E948 /* CDPickerOperation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDPickerOperation-prefix.pch"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		38C62C80F6046FC57802BA283A390207 /* Pods-CDPickerOperation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CDPickerOperation_Example-dummy.m"; sourceTree = "<group>"; };
+		4698B1DAAFCBDA71CD8BEF2E4D3BF40A /* Pods-CDPickerOperation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CDPickerOperation_Tests-dummy.m"; sourceTree = "<group>"; };
+		4FD1069C657DD64418B3C9E7384F2FDA /* CDPickerOperation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CDPickerOperation-dummy.m"; sourceTree = "<group>"; };
+		527203FE8A0A9857703C1ECA0B5819F1 /* Pods-CDPickerOperation_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CDPickerOperation_Example-Info.plist"; sourceTree = "<group>"; };
+		5701E654A1E2F146BD3FBAC9DD544311 /* Pods-CDPickerOperation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CDPickerOperation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		59EEC5F684007FA1ED9573F6E203FE91 /* CDPickerOperation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDPickerOperation-umbrella.h"; sourceTree = "<group>"; };
+		5E52F128D9784BE6EDCE0F2F091EA63F /* Pods-CDPickerOperation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CDPickerOperation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7064427359E6F11F8549B765DF683FD4 /* Pods-CDPickerOperation_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CDPickerOperation_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		754C3E41C5F2C737851660A2C93D4318 /* Pods-CDPickerOperation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CDPickerOperation_Tests.modulemap"; sourceTree = "<group>"; };
+		82C1770C3D755C16631C8AF5F859C591 /* Pods_CDPickerOperation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CDPickerOperation_Tests.framework; path = "Pods-CDPickerOperation_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86D9C25DA518AB0F676F568628FE9514 /* CDPickerOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDPickerOperation.h; path = CDPickerOperation/CDPickerOperation.h; sourceTree = "<group>"; };
+		8DBEEF9D3E5BD1D609A99C42196BB059 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8DF1E56CEA4BD5B993D0F3518B981114 /* Pods-CDPickerOperation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CDPickerOperation_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4D3482EE09F6377E6C04632321F7F33 /* Pods-CDPickerOperation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CDPickerOperation_Example-umbrella.h"; sourceTree = "<group>"; };
+		AAD0A3141B125CD9CD688E3FC3D23ADD /* CDPickerOperation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CDPickerOperation.xcconfig; sourceTree = "<group>"; };
+		B553940F8467C5D5C862FE8A7B03CFE2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B95C6E0D1952AFDF82DBD3F06E87E271 /* Pods-CDPickerOperation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CDPickerOperation_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CC3E50976455F880CC48E620C8ED235C /* CDPickerOperation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CDPickerOperation.framework; path = CDPickerOperation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D42D28FBD13810604F150E38A81B5013 /* CDPickerOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDPickerOperation.m; path = CDPickerOperation/CDPickerOperation.m; sourceTree = "<group>"; };
+		DE34E9490C1495562933ACC091A985DB /* Pods-CDPickerOperation_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CDPickerOperation_Tests-umbrella.h"; sourceTree = "<group>"; };
+		ED3911EC9DD670E005E9835E38B3CEAD /* CDPickerOperation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CDPickerOperation.modulemap; sourceTree = "<group>"; };
+		F38702A7DA4E48351B051DBE14DE98BC /* CDPickerOperation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CDPickerOperation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F57D43D7C09095131997AAB2FC8B8CC8 /* Pods-CDPickerOperation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CDPickerOperation_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F97B8084FF9B3471C49942E3FC3CBAD2 /* Pods-CDPickerOperation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CDPickerOperation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C27D325ECBF5B61E3B3990634C7FFAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ADB67CC4F19DFA6760F0FA7D5E48A69 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68AD7BD624EFB577147FC13956CF7B4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB2E0ADF52793DAFC3483F87ACE53A06 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1EB61366FDC7D2F1F8AC102313FB5AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC30B796FD371E2FD4D3E41DBC95276 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C4F6072158BA368B97797A54B3C6AC4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED3911EC9DD670E005E9835E38B3CEAD /* CDPickerOperation.modulemap */,
+				AAD0A3141B125CD9CD688E3FC3D23ADD /* CDPickerOperation.xcconfig */,
+				4FD1069C657DD64418B3C9E7384F2FDA /* CDPickerOperation-dummy.m */,
+				0D4CECB306DC0688508D6E55352523ED /* CDPickerOperation-Info.plist */,
+				298A9729990137A630335F2776A5E948 /* CDPickerOperation-prefix.pch */,
+				59EEC5F684007FA1ED9573F6E203FE91 /* CDPickerOperation-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CDPickerOperation";
+			sourceTree = "<group>";
+		};
+		3F6F3A976408CB8622F3E4FF54737915 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F38702A7DA4E48351B051DBE14DE98BC /* CDPickerOperation.podspec */,
+				B553940F8467C5D5C862FE8A7B03CFE2 /* LICENSE */,
+				8DBEEF9D3E5BD1D609A99C42196BB059 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		582B4A7ACA596491EC2D0A3158945A06 /* Pods-CDPickerOperation_Example */ = {
+			isa = PBXGroup;
+			children = (
+				00DC86B195FE25480083255F04490AEC /* Pods-CDPickerOperation_Example.modulemap */,
+				29040A71CDC10DAAB875A8A05D3322B0 /* Pods-CDPickerOperation_Example-acknowledgements.markdown */,
+				5E52F128D9784BE6EDCE0F2F091EA63F /* Pods-CDPickerOperation_Example-acknowledgements.plist */,
+				38C62C80F6046FC57802BA283A390207 /* Pods-CDPickerOperation_Example-dummy.m */,
+				F57D43D7C09095131997AAB2FC8B8CC8 /* Pods-CDPickerOperation_Example-frameworks.sh */,
+				527203FE8A0A9857703C1ECA0B5819F1 /* Pods-CDPickerOperation_Example-Info.plist */,
+				A4D3482EE09F6377E6C04632321F7F33 /* Pods-CDPickerOperation_Example-umbrella.h */,
+				8DF1E56CEA4BD5B993D0F3518B981114 /* Pods-CDPickerOperation_Example.debug.xcconfig */,
+				133FC5811DBAE3D5A7FBC2FA2D112791 /* Pods-CDPickerOperation_Example.release.xcconfig */,
+			);
+			name = "Pods-CDPickerOperation_Example";
+			path = "Target Support Files/Pods-CDPickerOperation_Example";
+			sourceTree = "<group>";
+		};
+		8788421E349C27F9A755F0A6E8D4A007 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CDAB1C997D53A0E9C19B9EEB18A86ACD /* CDPickerOperation */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CDAB1C997D53A0E9C19B9EEB18A86ACD /* CDPickerOperation */ = {
+			isa = PBXGroup;
+			children = (
+				86D9C25DA518AB0F676F568628FE9514 /* CDPickerOperation.h */,
+				D42D28FBD13810604F150E38A81B5013 /* CDPickerOperation.m */,
+				3F6F3A976408CB8622F3E4FF54737915 /* Pod */,
+				2C4F6072158BA368B97797A54B3C6AC4 /* Support Files */,
+			);
+			name = CDPickerOperation;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8788421E349C27F9A755F0A6E8D4A007 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				DA37534174051A3D43459FEAA7F60A77 /* Products */,
+				F28CD9DA36741E7D9EEA64A2E21ABC38 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA37534174051A3D43459FEAA7F60A77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC3E50976455F880CC48E620C8ED235C /* CDPickerOperation.framework */,
+				033A6C13D3638DB33D56AD5C64A467B8 /* Pods_CDPickerOperation_Example.framework */,
+				82C1770C3D755C16631C8AF5F859C591 /* Pods_CDPickerOperation_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F28CD9DA36741E7D9EEA64A2E21ABC38 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				582B4A7ACA596491EC2D0A3158945A06 /* Pods-CDPickerOperation_Example */,
+				FA3679EADFE773EDA035223132EFACAD /* Pods-CDPickerOperation_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FA3679EADFE773EDA035223132EFACAD /* Pods-CDPickerOperation_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				754C3E41C5F2C737851660A2C93D4318 /* Pods-CDPickerOperation_Tests.modulemap */,
+				7064427359E6F11F8549B765DF683FD4 /* Pods-CDPickerOperation_Tests-acknowledgements.markdown */,
+				F97B8084FF9B3471C49942E3FC3CBAD2 /* Pods-CDPickerOperation_Tests-acknowledgements.plist */,
+				4698B1DAAFCBDA71CD8BEF2E4D3BF40A /* Pods-CDPickerOperation_Tests-dummy.m */,
+				204EEF32AF2559517093D55BACB8A43A /* Pods-CDPickerOperation_Tests-Info.plist */,
+				DE34E9490C1495562933ACC091A985DB /* Pods-CDPickerOperation_Tests-umbrella.h */,
+				5701E654A1E2F146BD3FBAC9DD544311 /* Pods-CDPickerOperation_Tests.debug.xcconfig */,
+				B95C6E0D1952AFDF82DBD3F06E87E271 /* Pods-CDPickerOperation_Tests.release.xcconfig */,
+			);
+			name = "Pods-CDPickerOperation_Tests";
+			path = "Target Support Files/Pods-CDPickerOperation_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8B74C642E8BDAF8BFE3DA27BBB372536 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				618BD0A3402457D23E0EA8C7352492CC /* CDPickerOperation-umbrella.h in Headers */,
+				727112D0E924B757A640AB28B9226385 /* CDPickerOperation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3080A4ED7B09C3D8156E69231B7E1DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2134C27491650DF32CB5AE0511B4EF64 /* Pods-CDPickerOperation_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA5E49D65FB683CC5266FBAE40AC620 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0C5434AC8A928D5520D366825BA905 /* Pods-CDPickerOperation_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6F1B57E7FBCA6160299DD09D47705F95 /* Pods-CDPickerOperation_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC109186D45837314130B96446508F90 /* Build configuration list for PBXNativeTarget "Pods-CDPickerOperation_Tests" */;
+			buildPhases = (
+				A3080A4ED7B09C3D8156E69231B7E1DD /* Headers */,
+				C4958061AE092C4836A340DA551AD6A8 /* Sources */,
+				2C27D325ECBF5B61E3B3990634C7FFAE /* Frameworks */,
+				9155EBC14345E9D33CFD3B2F2C747B20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				919B4A67BCA02F9D89659295C2B31905 /* PBXTargetDependency */,
+			);
+			name = "Pods-CDPickerOperation_Tests";
+			productName = "Pods-CDPickerOperation_Tests";
+			productReference = 82C1770C3D755C16631C8AF5F859C591 /* Pods_CDPickerOperation_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6FD7E76DF268A861616E9C855AC02768 /* CDPickerOperation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05823926A7E6D5FAC7D2437FAE2E866A /* Build configuration list for PBXNativeTarget "CDPickerOperation" */;
+			buildPhases = (
+				8B74C642E8BDAF8BFE3DA27BBB372536 /* Headers */,
+				A2FB7FC74518ABBD0EBF0C8F56ECB431 /* Sources */,
+				C1EB61366FDC7D2F1F8AC102313FB5AC /* Frameworks */,
+				363DB3240495E566F69294DE4834A850 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CDPickerOperation;
+			productName = CDPickerOperation;
+			productReference = CC3E50976455F880CC48E620C8ED235C /* CDPickerOperation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9C83DA14328D24B72DB458E8479FDFCB /* Pods-CDPickerOperation_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 462C7EAC69021CA2734AA3CBBBE20E9C /* Build configuration list for PBXNativeTarget "Pods-CDPickerOperation_Example" */;
+			buildPhases = (
+				FAA5E49D65FB683CC5266FBAE40AC620 /* Headers */,
+				CD7B29BB2BBC53C43F10D2622091516B /* Sources */,
+				68AD7BD624EFB577147FC13956CF7B4A /* Frameworks */,
+				BEC13E7272B0F563731BE1C44C3DEEDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				451BAC466BE3552F09AAC44DBFA6569E /* PBXTargetDependency */,
+			);
+			name = "Pods-CDPickerOperation_Example";
+			productName = "Pods-CDPickerOperation_Example";
+			productReference = 033A6C13D3638DB33D56AD5C64A467B8 /* Pods_CDPickerOperation_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DA37534174051A3D43459FEAA7F60A77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FD7E76DF268A861616E9C855AC02768 /* CDPickerOperation */,
+				9C83DA14328D24B72DB458E8479FDFCB /* Pods-CDPickerOperation_Example */,
+				6F1B57E7FBCA6160299DD09D47705F95 /* Pods-CDPickerOperation_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		363DB3240495E566F69294DE4834A850 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9155EBC14345E9D33CFD3B2F2C747B20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC13E7272B0F563731BE1C44C3DEEDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2FB7FC74518ABBD0EBF0C8F56ECB431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7A0FB378686C0C198053C1C5FE3948 /* CDPickerOperation-dummy.m in Sources */,
+				F4795E8E8EB065829B39FF18F20C6F61 /* CDPickerOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4958061AE092C4836A340DA551AD6A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E61DA2E3782D99556EF95E1A8D3D84 /* Pods-CDPickerOperation_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7B29BB2BBC53C43F10D2622091516B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A33F44443F90F7663F34767269C18F6 /* Pods-CDPickerOperation_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		451BAC466BE3552F09AAC44DBFA6569E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CDPickerOperation;
+			target = 6FD7E76DF268A861616E9C855AC02768 /* CDPickerOperation */;
+			targetProxy = E9BCC12F7BE48DF69B770200C844B9FE /* PBXContainerItemProxy */;
+		};
+		919B4A67BCA02F9D89659295C2B31905 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CDPickerOperation_Example";
+			target = 9C83DA14328D24B72DB458E8479FDFCB /* Pods-CDPickerOperation_Example */;
+			targetProxy = D016F839F240C3807981F602681F597D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C682445A940B15071F5E612765319E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DF1E56CEA4BD5B993D0F3518B981114 /* Pods-CDPickerOperation_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CDPickerOperation_Example/Pods-CDPickerOperation_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CDPickerOperation_Example/Pods-CDPickerOperation_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4C6F6D7783D6BF602E92313FE78A2D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B95C6E0D1952AFDF82DBD3F06E87E271 /* Pods-CDPickerOperation_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CDPickerOperation_Tests/Pods-CDPickerOperation_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CDPickerOperation_Tests/Pods-CDPickerOperation_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		652EEBF10CA297A37CCD851EB6547F42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 133FC5811DBAE3D5A7FBC2FA2D112791 /* Pods-CDPickerOperation_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CDPickerOperation_Example/Pods-CDPickerOperation_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CDPickerOperation_Example/Pods-CDPickerOperation_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BDBC3B089F129C813E6298DD690E845E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5701E654A1E2F146BD3FBAC9DD544311 /* Pods-CDPickerOperation_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CDPickerOperation_Tests/Pods-CDPickerOperation_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CDPickerOperation_Tests/Pods-CDPickerOperation_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D6A21C864CBD689BE9E5A14878BF8293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAD0A3141B125CD9CD688E3FC3D23ADD /* CDPickerOperation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CDPickerOperation/CDPickerOperation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CDPickerOperation/CDPickerOperation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CDPickerOperation/CDPickerOperation.modulemap";
+				PRODUCT_MODULE_NAME = CDPickerOperation;
+				PRODUCT_NAME = CDPickerOperation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EB28A408056A0A6E14C958E2EC868779 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAD0A3141B125CD9CD688E3FC3D23ADD /* CDPickerOperation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CDPickerOperation/CDPickerOperation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CDPickerOperation/CDPickerOperation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CDPickerOperation/CDPickerOperation.modulemap";
+				PRODUCT_MODULE_NAME = CDPickerOperation;
+				PRODUCT_NAME = CDPickerOperation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05823926A7E6D5FAC7D2437FAE2E866A /* Build configuration list for PBXNativeTarget "CDPickerOperation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB28A408056A0A6E14C958E2EC868779 /* Debug */,
+				D6A21C864CBD689BE9E5A14878BF8293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		462C7EAC69021CA2734AA3CBBBE20E9C /* Build configuration list for PBXNativeTarget "Pods-CDPickerOperation_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C682445A940B15071F5E612765319E3 /* Debug */,
+				652EEBF10CA297A37CCD851EB6547F42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC109186D45837314130B96446508F90 /* Build configuration list for PBXNativeTarget "Pods-CDPickerOperation_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBC3B089F129C813E6298DD690E845E /* Debug */,
+				4C6F6D7783D6BF602E92313FE78A2D6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
